@@ -15,3 +15,8 @@ arreglo.each { |i| puts i }
 #Encontrar el máximo
 arreglo = [1, -3, 5, 7, -9, 13, 3]
 puts arreglo.max { |a, b| a<=>b} 
+
+#Promedio
+arreglo = [2, 10, 3] 
+promedio = arreglo.sum / arreglo.size.to_f #27/8
+puts promedio 
