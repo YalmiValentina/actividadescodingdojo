@@ -34,4 +34,8 @@ def mayorQueY(lista,y)
 end
 puts mayorQueY(arreglo, 3)
 
+#Elevar al cuadrado
+arreglo = [1, 5, 10, -2]
+arreglo.map! { |num| num * num }
+puts arreglo
 
