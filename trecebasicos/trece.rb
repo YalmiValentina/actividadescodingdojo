@@ -52,3 +52,14 @@ def maxMinProm(lista)
 end
 puts maxMinProm(arreglo)
 
+#Cambiar los valores en el arreglo
+arreglo = [1, 5, 10, 7, -2]
+
+def cambio(lista)
+    lista.each_index {|i| lista[i] = lista[i+1]}
+    lista[-1] = 0
+    return lista
+end
+puts cambio(arreglo)
+
+
