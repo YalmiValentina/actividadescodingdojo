@@ -39,3 +39,16 @@ arreglo = [1, 5, 10, -2]
 arreglo.map! { |num| num * num }
 puts arreglo
 
+#Eliminar números negativos
+arreglo = [1, 5, 10, -2]
+arreglo.each_index { |i| arreglo[i] = 0 if arreglo[i] < 0 }
+puts arreglo
+
+#Max, Min, y Promedio
+arreglo= [1, 5, 10, -2]
+
+def maxMinProm(lista)
+    return {minimo: lista.min, maximo: lista.max,promedio: lista.sum / lista.size.to_f }
+end
+puts maxMinProm(arreglo)
+
