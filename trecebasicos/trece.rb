@@ -62,4 +62,13 @@ def cambio(lista)
 end
 puts cambio(arreglo)
 
+#Números a cadenas
+arreglo = [-1, -3, 2]
+def numeros(lista)
+    lista.each_index {|i| lista[i] = 'Dojo' if lista[i] < 0}
+    return lista
+end
+
+puts numeros(arreglo)
+
 
