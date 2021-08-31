@@ -25,4 +25,13 @@ puts promedio
 arreglo =[]
 arreglo.push((1..255).each { |num| puts num unless num.even? })
 
+#Mayor que Y
+arreglo = [1, 3, 5, 7]  
+def mayorQueY(lista,y)
+    contador = 0
+    lista.each {|num| contador +=1 if num > y}
+    return contador
+end
+puts mayorQueY(arreglo, 3)
+
 
