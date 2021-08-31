@@ -20,3 +20,9 @@ puts arreglo.max { |a, b| a<=>b}
 arreglo = [2, 10, 3] 
 promedio = arreglo.sum / arreglo.size.to_f #27/8
 puts promedio 
+
+#Arreglo con números impares
+arreglo =[]
+arreglo.push((1..255).each { |num| puts num unless num.even? })
+
+
