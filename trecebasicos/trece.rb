@@ -12,3 +12,6 @@ suma = 0
 arreglo = [1, 3, 5, 7, 9, 13]
 arreglo.each { |i| puts i }
 
+#Encontrar el máximo
+arreglo = [1, -3, 5, 7, -9, 13, 3]
+puts arreglo.max { |a, b| a<=>b} 
